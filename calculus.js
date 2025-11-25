@@ -22,16 +22,5 @@ function approxIntegral(func, x1, x2) {
 
 }
 
-function swap(a,b) {
-    console.log(a,b)
-    
-    a = a - b
-
-    b = b + a
-
-    a = b - a
-
-    console.log(a,b)
-}
 
 console.log(approxIntegral(Math.sin, 0, Math.PI))
